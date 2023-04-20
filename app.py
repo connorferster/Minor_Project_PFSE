@@ -3,7 +3,7 @@ import plotly.graph_objects as go
 import sample_app_module as sam
 
 st.header("Comparison of factored axial resistance of two doubly-symmetric columns over a height range")
-
+st.subheader("THis is my subheader")
 st.sidebar.subheader("Results Parameters")
 min_height = st.sidebar.number_input("Minimum column height (mm)", value=200)
 max_height = st.sidebar.number_input("Maximum column height (mm)", value=30000)
